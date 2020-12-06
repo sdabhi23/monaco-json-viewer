@@ -3,11 +3,12 @@
     "version": "0.1.0",
     "manifest_version": 2,
     "description": "Makes JSON easy to read. Open source.",
-    "homepage_url": "https://github.com/callumlocke/json-formatter",
+    "homepage_url": "https://github.com/sdabhi23/monaco-json-viewer",
     "minimum_chrome_version": "21",
     "icons": {
-        "128": "icons/128.png",
-        "32": "icons/32.png"
+        "128": "icons/n128.png",
+        "64": "icons/n64.png",
+        "32": "icons/n32.png"
     },
     "content_scripts": [
         {
