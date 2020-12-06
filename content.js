@@ -22,7 +22,7 @@
             try {
                 const JSONdata = JSON.parse(pre.innerText);
                 console.log(JSONdata);
-                chrome.storage.local.set({"JSONExtens1ondata": JSONdata}, (trial) => console.log(trial));
+                chrome.storage.local.set({"JSONExtens1ondata": JSONdata});
             } catch (error) {
                 isJSON = false;
                 pre.style.display = "initial";
