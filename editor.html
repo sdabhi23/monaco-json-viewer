@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
-</head>
-<style>
-    body {
-        margin: 0;
-        padding: 0;
-    }
-</style>
-<body>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" href="keyboard.min.css" />
+    <link rel="stylesheet" href="editor.css" />
+  </head>
+  <body>
+    <div id="container"></div>
 
-<div id="container" style="width:100vw;height:100vh;overflow: hidden;"></div>
+    <div class="popup">
+      <p>Use <kbd class="kbc-button">F1</kbd> to open Command Palette</p>
+    </div>
 
-<script src="monaco/min/vs/loader.js"></script>
-<script src="editor.js"></script>
-</body>
+    <script src="monaco/min/vs/loader.js"></script>
+    <script src="editor.js"></script>
+  </body>
+</html>

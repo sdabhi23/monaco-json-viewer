@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.popup {
+  position: absolute;
+  top: 0;
+  right: 10vw;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  user-select: none;
+  background-color: dimgray;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.popup > p {
+  margin: 0.3em;
+}

@@ -29,6 +29,7 @@
     "web_accessible_resources": [
         "monaco/*",
         "editor.html",
-        "editor.js"
+        "editor.js",
+        "keyboard.min.css"
 	]
 }
