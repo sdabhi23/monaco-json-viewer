@@ -17,10 +17,26 @@ body {
   font-size: 15px;
   padding: 10px;
   user-select: none;
-  background-color: dimgray;
+  background-color: #1e1e1e;
   border-radius: 0px 0px 10px 10px;
 }
 
 .popup > p {
   margin: 0.3em;
+}
+
+.bottom-bar {
+  position: absolute;
+  bottom: 0;
+  right: 10vw;
+  color: white;
+  font-size: 15px;
+  padding: 20px;
+  user-select: none;
+  background-color: #1e1e1e;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.bottom-bar > a {
+  color: antiquewhite;
 }
