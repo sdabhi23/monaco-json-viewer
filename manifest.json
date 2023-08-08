@@ -1,7 +1,7 @@
 {
     "name": "Monaco JSON Viewer",
-    "version": "0.2.0",
-    "manifest_version": 2,
+    "version": "0.3.0",
+    "manifest_version": 3,
     "description": "A minimalistic JSON viewer built using open-source components!",
     "homepage_url": "https://github.com/sdabhi23/monaco-json-viewer",
     "minimum_chrome_version": "21",
@@ -22,14 +22,23 @@
         }
     ],
     "permissions": [
-        "*://*/*",
-        "<all_urls>",
         "storage"
     ],
+    "host_permissions": [
+        "*://*/*",
+        "<all_urls>"
+    ],
     "web_accessible_resources": [
-        "monaco/*",
-        "editor.html",
-        "editor.js",
-        "keyboard.min.css"
-	]
+        {
+            "resources": [
+                "monaco/*",
+                "editor.html",
+                "editor.js",
+                "keyboard.min.css"
+            ],
+            "matches": [
+                "*://*/*"
+            ]
+        }
+    ]
 }
