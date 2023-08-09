@@ -1,6 +1,6 @@
 {
     "name": "Monaco JSON Viewer",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "manifest_version": 3,
     "description": "A minimalistic JSON viewer built using open-source components!",
     "homepage_url": "https://github.com/sdabhi23/monaco-json-viewer",

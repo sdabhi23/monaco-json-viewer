@@ -6,15 +6,18 @@
     <link rel="stylesheet" href="editor.css" />
   </head>
   <body>
+    <div id="content-bar">
+      <div id="shortcuts-bar">
+        <p>Use <kbd class="kbc-button">F1</kbd> to open Command Palette</p>
+      </div>
+      <div id="content-spacer"></div>
+      <div id="credit-section">
+        JSON Viewer by
+        <a class="content-link" href="https://github.com/sdabhi23">Shrey Dabhi</a>
+      </div>
+    </div>
+
     <div id="container"></div>
-
-    <div class="popup">
-      <p>Use <kbd class="kbc-button">F1</kbd> to open Command Palette</p>
-    </div>
-
-    <div class="bottom-bar">
-        Made with 💕 by <a href="https://github.com/sdabhi23">Shrey Dabhi (@sdabhi23)</a>
-    </div>
 
     <script src="monaco/min/vs/loader.js"></script>
     <script src="editor.js"></script>

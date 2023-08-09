@@ -9,20 +9,37 @@ body {
   overflow: hidden;
 }
 
-.popup {
-  position: absolute;
-  top: 0;
-  right: 10vw;
+#content-bar {
+  width: 100vw;
+  background-color: #1e1e1e;
   color: white;
   font-size: 15px;
-  padding: 10px;
   user-select: none;
-  background-color: #1e1e1e;
-  border-radius: 0px 0px 10px 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
 }
 
-.popup > p {
-  margin: 0.3em;
+#shortcuts-bar {
+  margin-left: 1.5rem;
+}
+
+#content-spacer {
+  flex-grow: 1;
+}
+
+#credit-section {
+  padding: 1.5rem;
+}
+
+.content-link {
+  color: antiquewhite;
+}
+
+.content-link:visited {
+  color: antiquewhite;
 }
 
 .bottom-bar {
@@ -33,10 +50,6 @@ body {
   font-size: 15px;
   padding: 20px;
   user-select: none;
-  background-color: #1e1e1e;
+  background-color: #2e3e3e;
   border-radius: 10px 10px 0px 0px;
-}
-
-.bottom-bar > a {
-  color: antiquewhite;
 }
