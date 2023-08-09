@@ -11,7 +11,7 @@ body {
 
 #content-bar {
   width: 100vw;
-  background-color: #1e1e1e;
+  background-color: #2e3e3e;
   color: white;
   font-size: 15px;
   user-select: none;
@@ -40,16 +40,4 @@ body {
 
 .content-link:visited {
   color: antiquewhite;
-}
-
-.bottom-bar {
-  position: absolute;
-  bottom: 0;
-  right: 10vw;
-  color: white;
-  font-size: 15px;
-  padding: 20px;
-  user-select: none;
-  background-color: #2e3e3e;
-  border-radius: 10px 10px 0px 0px;
 }
