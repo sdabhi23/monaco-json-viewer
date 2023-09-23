@@ -1,4 +1,4 @@
-# ![icon](icons/n32.png) Monaco JSON Viewer
+# Monaco JSON Viewer
 
 A minimalistic JSON viewer built using open-source components!
 
