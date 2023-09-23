@@ -8,10 +8,8 @@ chrome.storage.local.get(["JSONExtens1ondata"], (res) => {
   var editorTheme = "";
 
   if (darkThemeMq.matches) {
-    console.log("Initial: Dark theme set");
     editorTheme = themeOptions["dark"];
   } else {
-    console.log("Initial: Light theme set");
     editorTheme = themeOptions["light"];
   }
 
@@ -19,10 +17,8 @@ chrome.storage.local.get(["JSONExtens1ondata"], (res) => {
   //       One of the most naive ways is to just reload the tab
   darkThemeMq.addEventListener("change", (e) => {
     if (e.matches) {
-      console.log("Change: Dark theme set");
       editorTheme = themeOptions["dark"];
     } else {
-      console.log("Change: Light theme set");
       editorTheme = themeOptions["light"];
     }
   });
